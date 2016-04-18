@@ -60,7 +60,7 @@
     height: 120px
   .down
     height: 185px
-    .theme
+    figure
       padding: 6px 10px
     .down__title
       float: left
@@ -90,25 +90,25 @@
       @extend %l
       clear: both
       margin-top: 29px
-      margin-bottom: 21px
     .article__img
       @extend %b
       width: 560px
       height: 421px
       float: left
+      margin-top: -3px
       margin-bottom: 25px
-      .article__theme
+      figure
         margin: 10px
         width: 245px
         float: right
-        p
+        figcaption
           padding: 13px
     .article__insert
       @extend %b
       @extend %l
       margin: 0px -30px 27px -30px
       padding: 16px 60px
-    .article__text
+    p
       @extend %l
       clear: both
       margin-bottom: 24px
@@ -122,12 +122,10 @@
       margin-right: 10px
       margin-top: 10px
       border-radius: 10px
-      +png(green)
       background-color: $green
       +gradRGBA(rgba(255,255,255,0.3),rgba(0,0,0,0.3),180deg)
       box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.35)
     .useless
-      +png(red)
       @extend .helpful
       width: 160px
       background-color: $red
