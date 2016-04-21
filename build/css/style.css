@@ -73,13 +73,13 @@ body { background-color: #ecebeb; }
 .content .article__img figure { margin: 2%; width: 38%; float: right; background-color: #00a743; }
 .content .article__img figure figcaption { padding: 4%; color: #fff; }
 .content .article blockquote { margin: 0px -5% 4% -5%; padding: 5% 10%; background-color: #00a743; color: #fff; font-size: 0.85vw; line-height: 1.1; font-style: italic; font-weight: 300; text-align: center; }
-.content .article p { clear: both; margin-bottom: 24px; line-height: 1.1; text-align: justify; }
+.content .article p { clear: both; margin-bottom: 4%; line-height: 1.1; text-align: justify; }
 .content .opinion { width: 100%; padding: 4.8%; overflow: inherit; }
-.content .opinion .helpful__icon { background-image: url("../img/icons.png"); width: 14px; height: 16px; background-position: 0px -38px; display: inline-block; float: left; margin-left: 10%; line-height: 2.5; }
-.content .opinion .useless__icon { background-image: url("../img/icons.png"); width: 14px; height: 16px; background-position: -18px -38px; display: inline-block; float: left; margin-left: 10%; line-height: 2.5; }
-.content .opinion span { margin-left: -1%; }
-.content .opinion .helpful, .content .opinion .useless { width: 25%; height: 40px; margin-right: 2%; margin-top: 2%; -webkit-border-radius: 10px; border-radius: 10px; background-color: #00a743; background-image: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%); background-image: -webkit-linear-gradient(270deg, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%); background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%); -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.35); box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.35); }
-.content .opinion .useless { width: 30%; background-color: #cc3300; }
+.content .opinion .helpful__icon { background-image: url("../img/icons.png"); width: 14px; height: 16px; background-position: 0px -38px; display: inline-block; float: left; margin-top: 5%; margin-left: 10%; line-height: 2; }
+.content .opinion .useless__icon { background-image: url("../img/icons.png"); width: 14px; height: 16px; background-position: -18px -38px; display: inline-block; float: left; margin-top: 5%; margin-left: 10%; line-height: 2; }
+.content .opinion .helpful, .content .opinion .useless { width: 22%; height: 40px; margin-right: 2%; margin-top: 2%; -webkit-border-radius: 10px; border-radius: 10px; background-color: #00a743; background-image: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%); background-image: -webkit-linear-gradient(270deg, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%); background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%); -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.35); box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.35); }
+.content .opinion .helpful span, .content .opinion .useless span { top: 50%; line-height: 2; }
+.content .opinion .useless { width: 27%; background-color: #cc3300; }
 .content .opinion__text { line-height: 1.5; font-size: 0.9vw; }
 .content .opinion button { font-size: 0.85vw; color: #fff; font-weight: bold; text-align: center; }
 .content .otherAticles { width: 100%; padding: 4.8%; overflow: inherit; }
@@ -87,10 +87,11 @@ body { background-color: #ecebeb; }
 .content .otherAticles__link { font-size: 0.9vw; }
 .content .otherAticles__links { font-size: 0.75vw; }
 .content .write { padding: 4.8%; overflow: inherit; }
-.content .write textarea { resize: none; float: left; width: 100%; height: 120px; padding: 3.5%; margin-top: 2.5%; margin-bottom: 1.5%; font-size: 0.82vw; font-style: italic; }
-.content .write button { width: 25%; height: 40px; margin-right: 2%; margin-top: 2%; font-size: 0.85vw; color: #fff; font-weight: bold; line-height: 2.5; -webkit-border-radius: 10px; border-radius: 10px; background-color: #00a743; background-image: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%); background-image: -webkit-linear-gradient(270deg, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%); background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%); -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.35); box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.35); }
+.content .write textarea { resize: none; float: left; width: 100%; height: 10vw; padding: 3.5%; margin-top: 2.5%; margin-bottom: 1.5%; font-size: 0.82vw; font-style: italic; }
+.content .write button { width: 25%; height: 40px; margin-right: 2%; margin-top: 2%; font-size: 0.85vw; color: #fff; font-weight: bold; line-height: 2; -webkit-border-radius: 10px; border-radius: 10px; background-color: #00a743; background-image: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%); background-image: -webkit-linear-gradient(270deg, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%); background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%); -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.35); box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.35); }
+.content .write button span { top: 50%; line-height: 2; }
 
-.footer { width: 32%; padding: 5.2% 0; position: relative; z-index: 1; overflow: hidden; text-align: center; color: #808080; }
+.footer { width: 32%; padding: 3% 0; position: relative; z-index: 1; overflow: hidden; text-align: center; color: #808080; }
 .footer__intent { margin-bottom: 5%; clear: both; }
 .footer .social { clear: both; margin: auto; margin-bottom: 3%; }
 .footer .social__link { display: inline-block; }
@@ -101,9 +102,151 @@ body { background-color: #ecebeb; }
 .footer li:last-child { border: none; clear: right; }
 
 .title { font-size: 1.1vw; line-height: 1.1; font-weight: bold; }
-
+.content .article { width: 100%; padding: 2% 4.8%; }
+.content .opinion .helpful, .content .opinion .useless { width: 22%; height: 40px; }
+.content .opinion .useless { width: 27%; }
+.content .down { height: 8vw; }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
  *{ -webkit-text-size-adjust: none; } }
+@media only screen and (max-width: 1280px){
+ .header{ margin-top: -10%; }
+ .header__conteiner{ padding: 0.5% 0.5% 1% 0.5%; width: 60%; }
+ .header__logo{ width: 55%; }
+ .header__text{ font-size: 1vw; top: 75%; left: 11%; }
+ .header__number{ margin-top: 2%; font-size: 1.2vw; }
+ .content{ width: 60%; margin-top: 10%; }
+ .content .up{ padding: 2%; }
+ .content .up figure{ font-size: 1vw; }
+ .content .down{ padding: 2%; }
+ .content .down figure{ font-size: 1vw; }
+ .content .up{ height: 8vw; }
+ .content .article__title{ font-size: 2.2vw; }
+ .content .article__date{ font-size: 1.2vw; margin-top: 3%; padding-right: 2%; }
+ .content .article__link{ font-size: 1.2vw; margin-top: 3%; padding-left: 2%; }
+ .content .article__pref{ margin-top: 3%; }
+ .content .article__img{ height: 37vw; margin-bottom: 2%; }
+ .content .article__img figure{ margin: 2%; width: 40%; }
+ .content .article__img figure figcaption{ padding: 5%; font-size: 1.2vw; }
+ .content .article blockquote{ width: 110%; padding: 2% 7%; font-size: 1.3vw; }
+ .content .article p{ font-size: 1.2vw; margin-bottom: 2%; }
+ .content .opinion .helpful__icon{ display: none; }
+ .content .opinion .useless__icon{ display: none; }
+ .content .opinion .helpful, .content .opinion .useless{ height: 30px; width: 15%; }
+ .content .opinion .useless{ width: 17%; }
+ .content .opinion__text{ line-height: 1.2; font-size: 1.4vw; }
+ .content .opinion button{ font-size: 1.2vw; }
+ .content .otherAticles__link{ font-size: 1.3vw; }
+ .content .otherAticles__links{ font-size: 1vw; }
+ .content .write textarea{ font-size: 1vw; }
+ .content .write button{ height: 30px; width: 15%; font-size: 1.2vw; }
+ .content .down{ height: 12vw; }
+ .content .down figure{ font-size: 0.85vw; }
+ .content .down__title{ margin-top: 1.5%; font-size: 1.1vw; }
+ .content .down__info{ margin-top: 1%; font-size: 1vw; }
+ .footer{ width: 60%; font-size: 1.1vw; }
+ .footer__intent{ margin-bottom: 3%; }
+ .footer h3{ margin-bottom: 2%; font-size: 1.1vw; }
+ .title{ font-size: 1.6vw; } }
+@media only screen and (max-width: 960px){
+ .header{ margin-top: -13%; }
+ .header__conteiner{ width: 75%; padding: 0.5% 1% 2% 1%; }
+ .header__text{ top: 70%; font-size: 1.3vw; }
+ .header__number{ margin-top: 5%; font-size: 1.8vw; }
+ .header .social-buttons{ display: none; }
+ .content{ width: 75%; margin-top: 13%; }
+ .content .up figure{ font-size: 1.4vw; }
+ .content .down figure{ font-size: 1.4vw; }
+ .content .up{ height: 10vw; }
+ .content .article__title{ font-size: 3vw; padding-right: 5%; }
+ .content .article__date{ font-size: 1.5vw; margin-top: 2%; }
+ .content .article__link{ font-size: 1.5vw; margin-top: 2%; }
+ .content .article__img{ height: 42vw; }
+ .content .article__img figure{ width: 30%; }
+ .content .article__img figure figcaption{ font-size: 1.5vw; }
+ .content .article blockquote{ font-size: 1.7vw; }
+ .content .article p{ font-size: 1.6vw; }
+ .content .opinion__text{ margin-top: 1%; font-size: 1.9vw; }
+ .content .opinion button{ font-size: 1.5vw; }
+ .content .otherAticles__link{ font-size: 1.9vw; }
+ .content .otherAticles__links{ font-size: 1.5vw; }
+ .content .write textarea{ font-size: 1.5vw; }
+ .content .write button{ font-size: 1.5vw; }
+ .content .down{ height: 15vw; }
+ .content .down figure{ font-size: 1.1vw; }
+ .content .down__title{ margin-top: 1.7%; font-size: 1.5vw; }
+ .content .down__info{ margin-top: 1.1%; font-size: 1.4vw; }
+ .footer{ width: 75%; font-size: 1.5vw; }
+ .footer h3{ font-size: 1.5vw; }
+ .title{ font-size: 2.3vw; } }
+@media only screen and (max-width: 720px){
+ .header{ position: static; margin-top: 0; }
+ .header__conteiner{ width: 90%; padding-bottom: 2.5%; }
+ .header__text{ top: 72%; font-size: 1.9vw; }
+ .header__number{ font-size: 2.5vw; }
+ .content{ width: 90%; margin-top: 3%; }
+ .content .up figure{ font-size: 2vw; }
+ .content .down figure{ font-size: 2vw; }
+ .content .up{ height: 15vw; background-size: 100%; }
+ .content .article__title{ font-size: 4vw; }
+ .content .article__date{ margin-top: 4%; font-size: 2.5vw; }
+ .content .article__link{ margin-top: 4%; font-size: 2.5vw; }
+ .content .article__pref{ margin-top: 4%; }
+ .content .article__img{ height: 49vw; }
+ .content .article__img figure{ width: 40%; }
+ .content .article__img figure figcaption{ font-size: 2vw; }
+ .content .article blockquote{ padding: 4% 8%; font-size: 2.9vw; }
+ .content .article p{ margin-bottom: 3%; font-size: 2.7vw; }
+ .content .opinion .helpful__icon{ display: block; float: none; margin: auto; }
+ .content .opinion .useless__icon{ display: block; float: none; margin: auto; }
+ .content .opinion .helpful, .content .opinion .useless{ display: block; width: 12%; float: left; margin-left: 35%; margin-right: 0; }
+ .content .opinion .helpful span, .content .opinion .useless span{ display: none; }
+ .content .opinion .useless{ display: block; width: 12%; float: right; margin-right: 35%; margin-left: 0; }
+ .content .opinion__text{ text-align: center; font-size: 2.7vw; }
+ .content .otherAticles ul{ text-align: center; }
+ .content .otherAticles a{ float: none; }
+ .content .otherAticles__link{ font-size: 2.7vw; }
+ .content .otherAticles__links{ font-size: 2.4vw; }
+ .content .write textarea{ font-size: 2.5vw; height: 15vw; margin-bottom: 3%; }
+ .content .write button{ height: 30px; width: 20%; float: none; margin: auto; -webkit-border-radius: 5px; border-radius: 5px; }
+ .content .write button span{ font-size: 2.2vw; line-height: 1; }
+ .content .down{ height: 19vw; }
+ .content .down__title{ font-size: 2.5vw; }
+ .content .down__info{ font-size: 2vw; }
+ .footer{ width: 90%; font-size: 2.5vw; }
+ .footer h3{ font-size: 2.5vw; }
+ .title{ text-align: center; font-size: 3.4vw; } }
+@media only screen and (max-width: 400px){
+ .header__conteiner{ width: 100%; padding-bottom: 2%; text-align: center; }
+ .header__logo{ width: 70%; float: none; margin: auto; }
+ .header__text{ top: 55%; left: 18%; font-size: 3vw; }
+ .header__number{ margin-top: 4%; font-size: 3vw; float: none; }
+ .content{ width: 100%; }
+ .content .up figure{ font-size: 3vw; }
+ .content .down figure{ font-size: 3vw; }
+ .content .up{ height: 16vw; }
+ .content .article__title{ font-size: 5.5vw; text-align: center; padding-right: 0; }
+ .content .article__date{ font-size: 3.5vw; margin-left: 18%; }
+ .content .article__link{ font-size: 3.5vw; }
+ .content .article__img{ height: 55vw; }
+ .content .article__img figure{ width: 50%; }
+ .content .article__img figure figcaption{ font-size: 3vw; }
+ .content .article blockquote{ font-size: 3.8vw; }
+ .content .article p{ font-size: 3.5vw; }
+ .content .opinion .helpful, .content .opinion .useless{ width: 13%; height: 30px; }
+ .content .opinion .useless{ width: 13%; }
+ .content .opinion__text{ font-size: 4vw; }
+ .content .otherAticles__link{ font-size: 4vw; }
+ .content .otherAticles__links{ font-size: 3.5vw; }
+ .content .write textarea{ font-size: 3.5vw; height: 25vw; }
+ .content .write button{ height: 25px; }
+ .content .write button span{ font-size: 3vw; display: inline-block; line-height: 1; }
+ .content .down{ height: 26vw; }
+ .content .down figure{ font-size: 2.5vw; }
+ .content .down__title{ font-size: 3.3vw; }
+ .content .down__info{ font-size: 3vw; }
+ .footer{ font-size: 3vw; width: 100%; }
+ .footer h3{ font-size: 3.5vw; }
+ .title{ font-size: 5vw; } }
 
 
 

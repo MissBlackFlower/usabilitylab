@@ -1,0 +1,386 @@
+.header
+  +r(1280)
+    margin-top: -10%
+  +r(960)
+    margin-top: -13%
+  +r(720)
+    position: static
+    margin-top: 0
+  &__conteiner
+    +r(1280)
+      padding: 0.5% 0.5% 1% 0.5%
+      width: 60%
+    +r(960)
+      width: 75%
+      padding: 0.5% 1% 2% 1%
+    +r(720)
+      width: 90%
+      padding-bottom: 2.5%
+    +r(400)
+      width: 100%
+      padding-bottom: 2%
+      text-align: center
+  &__logo
+    +r(1280)
+      width: 55%
+    +r(400)
+      width: 70%
+      float: none
+      margin: auto
+  &__text
+    +r(1280)
+      font-size: 1vw
+      top: 75%
+      left: 11%
+    +r(960)
+      top: 70%
+      font-size: 1.3vw
+    +r(720)
+      top: 72%
+      font-size: 1.9vw
+    +r(400)
+      top: 55%
+      left: 18%
+      font-size: 3vw
+  &__number
+    +r(1280)
+      margin-top: 2%
+      font-size: 1.2vw
+    +r(960)
+      margin-top: 5%
+      font-size: 1.8vw
+    +r(720)
+      font-size: 2.5vw
+    +r(400)
+      margin-top: 4%
+      font-size: 3vw
+      float: none
+  .social-buttons
+    +r(960)
+      display: none
+.content
+  +r(1280)
+    width: 60%
+    margin-top: 10%
+  +r(960)
+    width: 75%
+    margin-top: 13%
+  +r(720)
+    width: 90%
+    margin-top: 3%
+  +r(400)
+    width: 100%
+  @each $s in up,down
+    .#{$s}
+      +r(1280)
+        padding: 2%
+      figure
+        +r(1280)
+          font-size: 1vw
+        +r(960)
+          font-size: 1.4vw
+        +r(720)
+          font-size: 2vw
+        +r(400)
+          font-size: 3vw
+  .up
+    +r(1280)
+      height: 8vw
+    +r(960)
+      height: 10vw
+    +r(720)
+      height: 15vw
+      background-size: 100%
+    +r(400)
+      height: 16vw
+  .article
+    width: 100%
+    padding: 2% 4.8%
+    &__title
+      +r(1280)
+        font-size: 2.2vw
+      +r(960)
+        font-size: 3vw
+        padding-right: 5%
+      +r(720)
+        font-size: 4vw
+      +r(400)
+        font-size: 5.5vw
+        text-align: center
+        padding-right: 0
+    &__date
+      +r(1280)
+        font-size: 1.2vw
+        margin-top: 3%
+        padding-right: 2%
+      +r(960)
+        font-size: 1.5vw
+        margin-top: 2%
+      +r(720)
+        margin-top: 4%
+        font-size: 2.5vw
+      +r(400)
+        font-size: 3.5vw
+        margin-left: 18%
+    &__link
+      +r(1280)
+        font-size: 1.2vw
+        margin-top: 3%
+        padding-left: 2%
+      +r(960)
+        font-size: 1.5vw
+        margin-top: 2%
+      +r(720)
+        margin-top: 4%
+        font-size: 2.5vw
+      +r(400)
+        font-size: 3.5vw
+    &__pref
+      +r(1280)
+        margin-top: 3%
+      +r(720)
+        margin-top: 4%
+    &__img
+      +r(1280)
+        height: 37vw
+        margin-bottom: 2%
+        figure
+          margin: 2%
+          width: 40%
+          figcaption
+            padding: 5%
+            font-size: 1.2vw
+      +r(960)
+        height: 42vw
+        figure
+          width: 30%
+          figcaption
+            font-size: 1.5vw
+      +r(720)
+        height: 49vw
+        figure
+          width: 40%
+          figcaption
+            font-size: 2vw
+      +r(400)
+        height: 55vw
+        figure
+          width: 50%
+          figcaption
+            font-size: 3vw
+    blockquote
+      +r(1280)
+        width: 110%
+        padding: 2% 7%
+        font-size: 1.3vw
+      +r(960)
+        font-size: 1.7vw
+      +r(720)
+        padding: 4% 8%
+        font-size: 2.9vw
+      +r(400)
+        font-size: 3.8vw
+    p
+      +r(1280)
+        font-size: 1.2vw
+        margin-bottom: 2%
+      +r(960)
+        font-size: 1.6vw
+      +r(720)
+        margin-bottom: 3%
+        font-size: 2.7vw
+      +r(400)
+        font-size: 3.5vw
+  .opinion
+    @each $s in helpful,useless
+      .#{$s}__icon
+        +r(1280)
+          display: none
+        +r(720)
+          display: block
+          float: none
+          margin: auto
+    .helpful
+      width: 22%
+      height: 40px
+      +r(1280)
+        height: 30px
+        width: 15%
+      +r(720)
+        display: block
+        width: 12%
+        float: left
+        margin-left: 35%
+        margin-right: 0
+      +r(400)
+        width: 13%
+        height: 30px
+      span
+        +r(720)
+          display: none
+    .useless
+      width: 27%
+      +r(1280)
+        width: 17%
+      +r(720)
+        display: block
+        width: 12%
+        float: right
+        margin-right: 35%
+        margin-left: 0
+      +r(400)
+        width: 13%
+    &__text
+      +r(1280)
+        line-height: 1.2
+        font-size: 1.4vw
+      +r(960)
+        margin-top: 1%
+        font-size: 1.9vw
+      +r(720)
+        text-align: center
+        font-size: 2.7vw
+      +r(400)
+        font-size: 4vw
+    button
+      +r(1280)
+        font-size: 1.2vw
+      +r(960)
+        font-size: 1.5vw
+  .otherAticles
+    ul
+      +r(720)
+        text-align: center
+    a
+      +r(720)
+        float: none
+        // margin: auto
+    &__link
+      +r(1280)
+        font-size: 1.3vw
+      +r(960)
+        font-size: 1.9vw
+      +r(720)
+        font-size: 2.7vw
+      +r(400)
+        font-size: 4vw
+    &__links
+      +r(1280)
+        font-size: 1vw
+      +r(960)
+        font-size: 1.5vw
+      +r(720)
+        font-size: 2.4vw
+      +r(400)
+        font-size: 3.5vw
+  .write
+    textarea
+      +r(1280)
+        font-size: 1vw
+      +r(960)
+        font-size: 1.5vw
+      +r(720)
+        font-size: 2.5vw
+        height: 15vw
+        margin-bottom: 3%
+      +r(400)
+        font-size: 3.5vw
+        height: 25vw
+    button
+      +r(1280)
+        height: 30px
+        width: 15%
+        font-size: 1.2vw
+      +r(960)
+        font-size: 1.5vw
+      +r(720)
+        height: 30px
+        width: 20%
+        float: none
+        margin: auto
+        border-radius: 5px
+      +r(400)
+        height: 25px
+      span
+        +r(720)
+          font-size: 2.2vw
+          line-height: 1
+        +r(400)
+          font-size: 3vw
+          display: inline-block
+          line-height: 1
+  .down
+    height: 8vw
+    +r(1280)
+      height: 12vw
+    +r(960)
+      height: 15vw
+    +r(720)
+      height: 19vw
+    +r(400)
+      height: 26vw
+    figure
+      +r(1280)
+        font-size: 0.85vw
+      +r(960)
+        font-size: 1.1vw
+      +r(400)
+        font-size: 2.5vw
+    &__title
+      +r(1280)
+        margin-top: 1.5%
+        font-size: 1.1vw
+      +r(960)
+        margin-top: 1.7%
+        font-size: 1.5vw
+      +r(720)
+        font-size: 2.5vw
+      +r(400)
+        font-size: 3.3vw
+    &__info
+      +r(1280)
+        margin-top: 1%
+        font-size: 1vw
+      +r(960)
+        margin-top: 1.1%
+        font-size: 1.4vw
+      +r(720)
+        font-size: 2vw
+      +r(400)
+        font-size: 3vw
+.footer
+  +r(1280)
+    width: 60%
+    font-size: 1.1vw
+  +r(960)
+    width: 75%
+    font-size: 1.5vw
+  +r(720)
+    width: 90%
+    font-size: 2.5vw
+  +r(400)
+    font-size: 3vw
+    width: 100%
+  &__intent
+    +r(1280)
+      margin-bottom: 3%
+  h3
+    +r(1280)
+      margin-bottom: 2%
+      font-size: 1.1vw
+    +r(960)
+      font-size: 1.5vw
+    +r(720)
+      font-size: 2.5vw
+    +r(400)
+      font-size: 3.5vw
+.title
+  +r(1280)
+    font-size: 1.6vw
+  +r(960)
+    font-size: 2.3vw
+  +r(720)
+    text-align: center
+    font-size: 3.4vw
+  +r(400)
+    font-size: 5vw
